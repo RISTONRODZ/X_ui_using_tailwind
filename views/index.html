@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>X Clone – Sigma</title>
+  <link rel="stylesheet" href="../public/stylesheets/style.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="icon" href="../public/images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body class="bg-black text-white min-h-screen flex">
+  <!-- Sidebar -->
+   <div class="flex h-screen overflow-y-auto"></div>
+  <aside class="w-[20%] p-4 sticky top-0 h-screen overflow-y-auto">
+    <img src="../public/images/new-twitter-stroke-rounded.svg" alt="X logo" class="w-8 mx-auto mb-6 invert" />
+    <ul class="space-y-3 text-xl">
+      <li class="flex items-center gap-3 px-4 py-2 rounded-full hover:bg-gray-800 cursor-pointer">
+        <span class="material-symbols-outlined text-3xl">home</span>
+        <span class="hidden md:block">Home</span>
+      </li>
+      <li class="flex items-center gap-3 px-4 py-2 rounded-full hover:bg-gray-800 cursor-pointer">
+        <span class="material-symbols-outlined text-3xl">search</span>
+        <span class="hidden md:block">Explore</span>
+      </li>
+      <li class="flex items-center gap-3 px-4 py-2 rounded-full hover:bg-gray-800 cursor-pointer">
+        <span class="material-symbols-outlined text-3xl">notifications</span>
+        <span class="hidden md:block">Notifications</span>
+      </li>
+      <li class="flex items-center gap-3 px-4 py-2 rounded-full hover:bg-gray-800 cursor-pointer">
+        <span class="material-symbols-outlined text-3xl">mail</span>
+        <span class="hidden md:block">Grok</span>
+      </li>
+      <li class="flex items-center gap-3 px-4 py-2 rounded-full hover:bg-gray-800 cursor-pointer">
+        <span class="material-symbols-outlined text-3xl">list</span>
+        <span class="hidden md:block">Lists</span>
+      </li>
+      <li class="flex items-center gap-3 px-4 py-2 rounded-full hover:bg-gray-800 cursor-pointer">
+        <span class="material-symbols-outlined text-3xl">bookmark</span>
+        <span class="hidden md:block">Bookmarks</span>
+      </li>
+      <li class="flex items-center gap-3 px-4 py-2 rounded-full hover:bg-gray-800 cursor-pointer">
+        <span class="material-symbols-outlined text-3xl">group</span>
+        <span class="hidden md:block">Communities</span>
+      </li>
+      <li class="flex items-center gap-3 px-4 py-2 rounded-full hover:bg-gray-800 cursor-pointer">
+        <span class="material-symbols-outlined text-3xl">workspace_premium</span>
+        <span class="hidden md:block">Premium</span>
+      </li>
+      <li class="flex items-center gap-3 px-4 py-2 rounded-full hover:bg-gray-800 cursor-pointer">
+        <span class="material-symbols-outlined text-3xl">person</span>
+        <span class="hidden md:block">Profile</span>
+      </li>
+      <li class="flex items-center gap-3 px-4 py-2 rounded-full hover:bg-gray-800 cursor-pointer">
+        <span class="material-symbols-outlined text-3xl">more_horiz</span>
+        <span class="hidden md:block">More</span>
+      </li>
+    </ul>
+  </aside>
+
+
+  <!-- Feed -->
+  <main class="w-[55%] border-x border-gray-700">
+    <header class="relative flex justify-center px-4 py-3">
+
+      <button class="w-1/2 text-center font-bold">For You</button>
+      <button class="w-1/2 text-center font-bold">Following</button>
+      <span class="material-symbols-outlined ml-4 cursor-pointer">settings</span>
+    </header>
+
+    <div class="flex items-start gap-4 px-4 py-3">
+      <div class="">
+        <img class="w-10 h-10 bg-gray-800 rounded-full" src="../public/images/elon.png" alt="" srcset="">
+      </div>
+      <input type="text" placeholder="What's happening?" class="flex-1 bg-transparent outline-none" />
+    </div>
+    <div class="text-blue-500 flex mx-5 items-center gap-3"><span class="material-symbols-outlined ">
+        globe_asia
+      </span>
+      <span>everyone can reply</span>
+    </div>
+    <div class="blueicons flex gap-2 mx-5 my-3 text-blue-600 pt-5">
+      <span class="material-symbols-outlined cursor-pointer">
+        imagesmode
+      </span>
+      <span class="material-symbols-outlined cursor-pointer">
+        gif
+      </span>
+      <span class="material-symbols-outlined cursor-pointer">
+        dehaze
+      </span>
+      <span class="material-symbols-outlined cursor-pointer">
+        sentiment_satisfied
+      </span>
+      <span class="material-symbols-outlined cursor-pointer">
+        calendar_month
+      </span>
+      <span class="material-symbols-outlined text-blue-200  cursor-pointer">
+        add_location
+      </span>
+    </div>
+    <hr class="my-4">
+    <!-- Feed content here -->
+    <div class="posts flex gap-3">
+      <div class="post flex">
+        <img class="w-16 rounded-full ml-5" src="../public/images/elon.png" alt="">
+      </div>
+      <div class="content">
+        <span class="font-bold hover:underline cursor-pointer">
+          Heavy Smoker
+        </span>
+        <div>😂😂</div>
+      </div>
+    </div>
+    <div class="postimg py-3 m-4 flex justify-center ">
+      <img src="../public/images/college.png" alt="">
+    </div>
+    <div class="icons flex justify-around w-full px-4 mt-2">
+      <span class="material-symbols-outlined">
+        chat
+      </span>
+      <span class="material-symbols-outlined">
+        repeat
+      </span>
+      <span class="material-symbols-outlined">
+        favorite
+      </span>
+      <span class="material-symbols-outlined">
+        bar_chart_4_bars
+      </span>
+      <span class="material-symbols-outlined">
+        bookmark
+      </span>
+
+      <span class="material-symbols-outlined -mr-5">
+        arrow_upward
+      </span>
+    </div>
+
+
+    <div class="w-full h-px bg-gray-700 my-3"></div>
+    <div class="posts flex gap-3">
+      <div class="post flex">
+        <img class="w-16 rounded-full ml-5" src="../public/images/elon.png" alt="">
+      </div>
+      <div class="content">
+        <span class="font-bold hover:underline cursor-pointer">
+          Heavy Smoker
+        </span>
+        <div>Relateable?</div>
+      </div>
+    </div>
+    <div class="postimg py-3 m-4 flex justify-center ">
+      <img src="../public/images/lecture.png" alt="">
+    </div>
+    <div class="icons flex justify-between w-full px-5">
+      <span class="material-symbols-outlined">
+        chat
+      </span>
+      <span class="material-symbols-outlined">
+        repeat
+      </span>
+      <span class="material-symbols-outlined">
+        favorite
+      </span>
+      <span class="material-symbols-outlined">
+        bar_chart_4_bars
+      </span>
+      <span class="material-symbols-outlined">
+        bookmark
+      </span>
+
+      <span class="material-symbols-outlined -mr-5">
+        arrow_upward
+      </span>
+    </div>
+    <div class="w-full h-2px bg-gray-700  my-3"></div>
+    <div class="posts flex gap-3">
+      <div class="post flex">
+        <img class="w-16 rounded-full ml-5" src="../public/images/elon.png" alt="">
+      </div>
+      <div class="content">
+        <span class="font-bold hover:underline cursor-pointer">
+          Heavy Smoker
+        </span>
+        <div>😂😂</div>
+      </div>
+    </div>
+    <div class="postimg py-3 m-4 flex justify-center ">
+      <img src="../public/images/shrek.png" alt="">
+    </div>
+    <div class="icons flex w-full pl-3.5 justify-around">
+      <span class="material-symbols-outlined">
+        chat
+      </span>
+      <span class="material-symbols-outlined">
+        repeat
+      </span>
+      <span class="material-symbols-outlined">
+        favorite
+      </span>
+      <span class="material-symbols-outlined">
+        bar_chart_4_bars
+      </span>
+      <span class="material-symbols-outlined">
+        bookmark
+      </span>
+
+      <span class="material-symbols-outlined -mr-5">
+        arrow_upward
+      </span>
+    </div>
+    <div class="w-full h-px bg-gray-700 my-3"></div>
+    <div class="posts flex gap-3">
+      <div class="post flex">
+        <img class="w-16 rounded-full ml-5" src="../public/images/elon.png" alt="">
+      </div>
+      <div class="content">
+        <span class="font-bold hover:underline cursor-pointer">
+          Heavy Smoker
+        </span>
+        <div>wow</div>
+      </div>
+    </div>
+    <div class="postimg py-3 m-4 flex justify-center ">
+      <img src="../public/images/bread.png" alt="">
+    </div>
+    <div class="icons flex justify-between w-full px-5">
+      <span class="material-symbols-outlined">
+        chat
+      </span>
+      <span class="material-symbols-outlined">
+        repeat
+      </span>
+      <span class="material-symbols-outlined">
+        favorite
+      </span>
+      <span class="material-symbols-outlined">
+        bar_chart_4_bars
+      </span>
+      <span class="material-symbols-outlined">
+        bookmark
+      </span>
+
+      <span class="material-symbols-outlined -mr-5">
+        arrow_upward
+      </span>
+    </div>
+    <div class="w-full h-px bg-fray-700 my-3"></div>
+   
+  </main>
+
+  <!-- Right sidebar -->
+  <aside class="w-[25%] p-4 sticky top-0 h-screen overflow-y-auto">
+    <div class="mb-6">
+      <input type="text" placeholder="Search X"
+        class="w-full bg-gray-900 rounded-full px-4 py-2 focus:outline-none hidden md:block" />
+    </div>
+
+    <section class="bg-[#16181c] rounded-xl p-4 mb-6 hidden md:block">
+      <h2 class="text-xl font-bold mb-4 ">What’s happening</h2>
+      <div class="space-y-3">
+        <div class="hover:bg-gray-800 p-3 rounded cursor-pointer">
+          <p class="text-gray-400 text-sm ">Trending in India</p>
+          <p class="font-semibold">#Orry</p>
+          <p class="text-xs text-gray-400">40.2k Posts</p>
+        </div>
+        <!-- More trend items -->
+      </div>
+    </section>
+   <section class="bg-[#16181c] rounded-xl p-4 md:block hidden w-full">
+  <h2 class="text-lg md:text-xl font-bold mb-4">Who to follow</h2>
+
+  <div class="space-y-3">
+    <!-- User 1 -->
+    <div class="flex justify-between items-center hover:bg-gray-800 p-2 rounded-lg">
+      <div class="flex items-center gap-3">
+        <img src="../public/images/elon.png" alt="avatar" class="w-10 h-10 rounded-full">
+        <div>
+          <p class="font-bold hover:underline cursor-pointer text-sm md:text-base leading-tight">CodeWithRiston</p>
+          <p class="text-gray-400 text-xs md:text-sm">@riston_dev</p>
+        </div>
+      </div>
+      <button class="bg-white text-black font-semibold text-xs md:text-sm px-3 py-1 rounded-full hover:bg-gray-200 whitespace-nowrap">Follow</button>
+    </div>
+
+    <!-- User 2 -->
+    <div class="flex justify-between items-center hover:bg-gray-800 p-2 rounded-lg">
+      <div class="flex items-center gap-3">
+        <img src="../public/images/bill.png" alt="avatar" class="w-10 h-10 rounded-full">
+        <div>
+          <p class="font-bold hover:underline cursor-pointer text-sm md:text-base leading-tight">CodeWithRodz</p>
+          <p class="text-gray-400 text-xs md:text-sm">@rodz_js</p>
+        </div>
+      </div>
+      <button class="bg-white text-black font-semibold text-xs md:text-sm px-3 py-1 rounded-full hover:bg-gray-200 whitespace-nowrap">Follow</button>
+    </div>
+
+    <!-- User 3 -->
+    <div class="flex justify-between items-center hover:bg-gray-800 p-2 rounded-lg">
+      <div class="flex items-center gap-3">
+        <img src="../public/images/zuck.png" alt="avatar" class="w-10 h-10 rounded-full">
+        <div>
+          <p class="font-bold hover:underline cursor-pointer text-sm md:text-base leading-tight">CodeWithBoston</p>
+          <p class="text-gray-400 text-xs md:text-sm">@boston_code</p>
+        </div>
+      </div>
+      <button class="bg-white text-black font-semibold text-xs md:text-sm px-3 py-1 rounded-full hover:bg-gray-200 whitespace-nowrap">Follow</button>
+    </div>
+  </div>
+
+  <p class="mt-4 text-blue-500 hover:underline cursor-pointer text-sm md:text-base">Show more</p>
+</section>
+
+
+  </aside>
+</div>
+</body>
+
+</html>

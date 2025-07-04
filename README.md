@@ -15,10 +15,19 @@ A responsive UI project crafted with Tailwind CSS v4, focused on simplicity, per
    ```bash
    npm install
 ## 📁 Folder Structure
-project-root/
+
+```
+X_ui_tailwind/
 ├── public/
 │   └── stylesheets/
-│          └── style.css
-├── views/
-    └── *.html or *.ejs (your templates)
+│       ├── input.css        # Tailwind source
+│       └── style.css        # Generated output
+├── views/                   # HTML or EJS templates
+│   └── index.html
+├── tailwind.config.js       # Tailwind configuration
+├── postcss.config.js        # PostCSS config with plugins
+├── package.json             # Project metadata and scripts
+└── README.md                # Project documentation
+```
+
 
